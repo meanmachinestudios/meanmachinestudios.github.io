@@ -1,0 +1,22 @@
+{
+  "name": "meanmachinesite",
+  "version": "0.1.0",
+  "description": "Our Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meanmachinestudios/meanmachinestudios.github.io.git"
+  },
+  "keywords": [
+    "Website"
+  ],
+  "author": "Tim Zschage",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meanmachinestudios/meanmachinestudios.github.io/issues"
+  },
+  "homepage": "https://github.com/meanmachinestudios/meanmachinestudios.github.io#readme"
+}

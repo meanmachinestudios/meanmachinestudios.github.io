@@ -1,0 +1,41 @@
+.root {
+  height: 100vh;
+  background-color: #872341; }
+
+.header-links {
+  list-style: none;
+  z-index: 5;
+  height: auto;
+  background-color: white;
+  margin-bottom: 0; }
+  .header-links li {
+    display: block;
+    font-size: 30px;
+    font-family: Dimbo;
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+    cursor: pointer; }
+    .header-links li:not(:first-child) {
+      border-bottom: 1px solid black; }
+    .header-links li:hover {
+      -webkit-box-shadow: 0px -7px 23px -6px black;
+      -moz-box-shadow: 0px -7px 23px -6px black;
+      box-shadow: 0px -7px 23px -6px black;
+      transition: box-shadow 0.3s; }
+
+.screenshot {
+  display: flex;
+  padding: 0; }
+
+.shadow {
+  position: absolute;
+  width: 100vw;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 2px; }
+
+@font-face {
+  font-family: dimbo;
+  src: url("../fonts/Dimbo Regular.ttf"); }
